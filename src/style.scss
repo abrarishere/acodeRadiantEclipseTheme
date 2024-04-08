@@ -1,0 +1,189 @@
+.ace-radiant-eclipse {
+  color: #fff; /* White text color */
+  background-color: #0e0e0e; /* Full dark background color */
+
+  .ace_gutter {
+    color: #ddd; /* Light gray for line numbers */
+  }
+  
+  .ace_gutter-active-line {
+    color: #fff; /* White for active line numbers */
+  }
+  
+  .ace_print-margin {
+    width: 1px;
+    background: #0f0f0f; /* Dark color for print margin */
+  }
+  
+  .ace_cursor {
+    color: #00ff00; /* Neon green cursor */
+  }
+  
+  .ace_marker-layer .ace_selection {
+    background: #6363637b; /* Dark color for selection */
+    border-radius: 0;
+  }
+  
+  .ace_multiselect .ace_selection.ace_start {
+    box-shadow: 0 0 3px #00ff00; /* Neon green shadow for multi-select */
+  }
+  
+  .ace_marker-layer .ace_step {
+    background: #0c0c0c; /* Dark color for step marker */
+  }
+  
+  .ace_marker-layer .ace_bracket {
+    margin: -1px 0 0 -1px;
+    border: 1px solid #ff0000; /* Neon red border for brackets */
+  }
+  
+  .ace_marker-layer .ace_active-line {
+    border: 1px solid #3a424a; /* Dark border for active line */
+    box-sizing: border-box;
+  }
+  
+  .ace_marker-layer .ace_selected-word {
+    background-color: rgba(255, 255, 0, 0.3); /* Neon yellow transparent background for selected word */
+  }
+  
+  .ace_invisible {
+    color: #52524d; /* Dark gray for invisible text */
+  }
+  
+  .hljs-keyword,
+  .ace_keyword {
+    color: #ff00ff; /* Neon magenta keywords */
+  }
+  
+  .ace_keyword.ace_operator {
+    color: #ddd; /* White for operators */
+  }
+  
+  .ace_constant.ace_language {
+    color: #bd93f9; /* Neon purple for language constants */
+  }
+  
+  .ace_constant.ace_numeric {
+    color: #00ffff; /* Neon cyan for numeric constants */
+  }
+  
+  .ace_constant.ace_character {
+    color: #bd93f9; /* Neon purple for character constants */
+  }
+  
+  .ace_constant.ace_character.ace_escape {
+    color: #ff79c6; /* Neon pink for escape characters */
+  }
+  
+  .ace_constant.ace_other {
+    color: #bd93f9; /* Neon purple for other constants */
+  }
+  
+  .hljs-title,
+  .ace_identifier {
+    color: #aef1ff; /* Neon light blue for titles and identifiers */
+  }
+  
+  .ace_support.ace_function {
+    color: #00ff00; /* Neon green for function support */
+  }
+  
+  .ace_support.ace_function.ace_dom {
+    color: #00ff00; /* Neon green for DOM functions */
+  }
+  
+  .ace_support.ace_constant {
+    color: #ce9178; /* Light orange for constant support */
+  }
+  
+  .ace_class {
+    color: #1edac1; /* Cyan for class names */
+  }
+  
+  .ace_variable.ace_language {
+    color: #aef1ff; /* Neon light blue for language variables */
+  }
+  
+  .ace_support.ace_type {
+    color: #aef1ff; /* Neon light blue for type support */
+  }
+  
+  .ace_meta.ace_tag {
+    color: #57afff; /* Neon blue for meta tags */
+  }
+  
+  .ace_storage,
+  .ace_storage.ace_type {
+    color: #57afff; /* Neon blue for storage and types */
+  }
+  
+  .ace_invalid {
+    color: #ff0000; /* Neon red for invalid text */
+    background-color: #ff79c6; /* Light pink background for invalid text */
+  }
+  
+  .ace_invalid.ace_deprecated {
+    color: #ff0000; /* Neon red for deprecated text */
+    background-color: #bd93f9; /* Light purple background for deprecated text */
+  }
+  
+  .ace_string {
+    color: #ce9178; /* Light orange for strings */
+  }
+  
+  .ace_comment {
+    color: #6A9955; /* Neon green for comments */
+  }
+  
+  .ace_variable {
+    color: #ffcc00; /* Neon yellow for variables */
+    text-shadow: 0 0 10px #ffcc00; /* Neon light effect for variables */
+  }
+  
+  .ace_constant {
+    color: #ffcc00; /* Neon yellow for constants */
+  }
+  
+  .hljs-params,
+  .ace_variable.ace_parameter {
+    color: #aef1ff; /* Neon light blue for function parameters */
+  }
+  
+  .ace_entity.ace_other.ace_attribute-name {
+    color: #aef1ff; /* Neon light blue for attribute names */
+  }
+  
+  .ace_xml-pe.ace_xml,
+  .ace_punctuation.ace_tag {
+    color: #999; /* Gray for XML punctuation */
+  }
+  
+  .ace_tag-name.ace_tag,
+  .ace_entity.ace_name.ace_tag {
+    color: #57afff; /* Neon blue for tag names */
+  }
+  
+  .ace_paren {
+    color: #ffcc00; /* Neon yellow for parentheses */
+  }
+  
+  .ace_indent-guide {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;
+  }
+  
+  .ace_indent-guide-active {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;
+  }
+
+  .ace_support.ace_constant.ace_js {
+    color: #ffcc00; /* Neon yellow for JS constants */
+  }
+  
+  .ace_entity.ace_name.ace_function {
+    color: #00ff00; /* Neon green for function names */
+  }
+  
+  .ace_support.ace_constant.ace_css-in-js {
+    color: #ffcc00; /* Neon yellow for CSS-in-JS constants */
+  }
+}
