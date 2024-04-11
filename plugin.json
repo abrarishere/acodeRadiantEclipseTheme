@@ -1,5 +1,5 @@
 {
-  "id":"acode.plugin.editorTheme",
+  "id":"acode-radiant-eclispe-theme",
   "name":"Editor Theme",
   "main":"dist/main.js",
   "version":"1.0.0",
@@ -7,7 +7,7 @@
   "icon":"icon.png",
   "files":[],
   "author": {
-    "name":"Legend Sabbir",
-    "email":"sabbirhossain.trash@gmail.com",
-    "github":"legendSabbir"
+    "name":"Muhmmad Abrar",
+    "email":"legendabrar44@gmail'com",
+    "github":"abrarishere"
   }}
