@@ -1,10 +1,10 @@
 {
-  "id":"acode-radiant-eclispe-theme",
-  "name":"Editor Theme",
+  "id":"acode.radiant_eclispe_theme",
+  "name":"Acode Radiant Eclipse Editor Theme",
   "main":"dist/main.js",
   "version":"1.0.0",
   "readme":"readme.md",
-  "minVersionCode": "1",
+  "minVersionCode": 1.10,
   "icon":"icon.png",
   "files":[],
   "author": {
